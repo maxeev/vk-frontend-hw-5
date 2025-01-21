@@ -1,5 +1,4 @@
-// utils.js
-import { generateLogs } from '../class/logs.js'; // Добавьте этот импорт
+import { generateLogs } from '../class/logs.js'; 
 export const HIT = {
     head: 30,
     body: 25,
@@ -37,7 +36,7 @@ export function enemyAttack() {
 
 export function playerAttack($formFight) {
     const attack = {};
-    const formElements = $formFight.elements; // Получаем элементы формы
+    const formElements = $formFight.elements; 
 
     for (let item of formElements) {
         if (item.checked && item.name === 'hit') {
@@ -47,7 +46,7 @@ export function playerAttack($formFight) {
         if (item.checked && item.name === 'defence') {
             attack.defence = item.value;
         }
-        item.checked = false; // Сбрасываем состояние чекбоксов
+        item.checked = false; 
     }
     return attack;
 }
@@ -72,13 +71,13 @@ export function showResult(player1, player2, $randomButton, $arenas, $chat) {
 
     if (player1.hp === 0 && player1.hp < player2.hp) {
         $arenas.appendChild(playerLose(player2.name));
-        generateLogs('end', player2, player1, null, $chat); // Передаем $chat
+        generateLogs('end', player2, player1, null, $chat); 
     } else if (player2.hp === 0 && player2.hp < player1.hp) {
         $arenas.appendChild(playerLose(player1.name));
-        generateLogs('end', player1, player2, null, $chat); // Передаем $chat
+        generateLogs('end', player1, player2, null, $chat); 
     } else if (player1.hp === 0 && player2.hp === 0) {
         $arenas.appendChild(playerLose());
-        generateLogs('draw', null, null, null, $chat); // Передаем $chat
+        generateLogs('draw', null, null, null, $chat); 
     }
 }
 

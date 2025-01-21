@@ -1,5 +1,4 @@
-// logs.js
-import { getRandom } from '../utils/utils.js'; // Добавьте этот импорт
+import { getRandom } from '../utils/utils.js'; 
 
 export const LOGS = {
     start: 'Часы показывали [time], когда [player1] и [player2] бросили вызов друг другу.',
@@ -55,7 +54,7 @@ export function generateLogs(type, { name } = {}, { name: playerName2, hp } = {}
     }
 
     const el = `<p>${text}</p>`;
-    if ($chat) { // Проверяем, что $chat определен
+    if ($chat) { 
         $chat.insertAdjacentHTML('afterbegin', el);
     } else {
         console.error('Element $chat is undefined');

@@ -1,4 +1,3 @@
-// index.js
 const $parent = document.querySelector('.parent');
 const $player = document.querySelector('.player');
 

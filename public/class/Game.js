@@ -1,4 +1,3 @@
-// Game.js
 import { getRandom, createReloadButton, enemyAttack, playerAttack, showResult } from '../utils/utils.js';
 import { LOGS, generateLogs } from './logs.js';
 import Player from './Player.js';
@@ -8,7 +7,7 @@ export default class Game {
         this.$arenas = document.querySelector('.arenas');
         this.$formFight = document.querySelector('.control'); 
         this.$randomButton = document.querySelector('.button'); 
-        this.$chat = document.querySelector('.chat'); // Получаем элемент чата
+        this.$chat = document.querySelector('.chat'); 
         const player1Data = JSON.parse(localStorage.getItem('player1'));
         const player2Data = JSON.parse(localStorage.getItem('player2'));
 
@@ -34,30 +33,30 @@ export default class Game {
     handleSubmit(e) {
         e.preventDefault();
         const { hit: hitEnemy, defence: defenceEnemy, value: valueEnemy } = enemyAttack();
-        const { hit, defence, value } = playerAttack(this.$formFight); // Передаем $formFight
+        const { hit, defence, value } = playerAttack(this.$formFight); 
 
         if (defence !== hitEnemy) {
             this.player1.changeHP(valueEnemy);
             this.player1.renderHP();
-            generateLogs('hit', this.player2, this.player1, valueEnemy, this.$chat); // Передаем $chat
+            generateLogs('hit', this.player2, this.player1, valueEnemy, this.$chat); 
         } else {
-            generateLogs('defence', this.player2, this.player1, null, this.$chat); // Передаем $chat
+            generateLogs('defence', this.player2, this.player1, null, this.$chat); 
         }
 
         if (defenceEnemy !== hit) {
             this.player2.changeHP(value);
             this.player2.renderHP();
-            generateLogs('hit', this.player1, this.player2, value, this.$chat); // Передаем $chat
+            generateLogs('hit', this.player1, this.player2, value, this.$chat); 
         } else {
-            generateLogs('defence', this.player1, this.player2, null, this.$chat); // Передаем $chat
+            generateLogs('defence', this.player1, this.player2, null, this.$chat); 
         }
 
-        showResult(this.player1, this.player2, this.$randomButton, this.$arenas, this.$chat); // Передаем $chat
+        showResult(this.player1, this.player2, this.$randomButton, this.$arenas, this.$chat); 
     }
 
     start() {
         this.player1.createPlayer();
         this.player2.createPlayer();
-        generateLogs('start', this.player1, this.player2, null, this.$chat); // Передаем $chat
+        generateLogs('start', this.player1, this.player2, null, this.$chat); 
     }
 }

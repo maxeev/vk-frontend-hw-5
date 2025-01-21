@@ -1,4 +1,3 @@
-// Player.js
 export default class Player {
     constructor(props) {
         this.name = props.name;

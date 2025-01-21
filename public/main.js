@@ -1,4 +1,3 @@
-//main.js
 import Game from './class/Game.js';
 
 document.addEventListener('DOMContentLoaded', () => {
