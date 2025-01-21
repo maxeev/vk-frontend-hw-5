@@ -1,0 +1,163 @@
+[
+    {
+        "id": 1,
+        "name": "Rain",
+        "img": "http://localhost:3001/assets/fightingStance/rain.gif",
+        "hp": 100,
+        "avatar": "http://localhost:3001/assets/avatar/1.png"
+    },
+    {
+        "id": 2,
+        "name": "Reptile",
+        "img": "http://localhost:3001/assets/fightingStance/reptile.gif",
+        "hp": 100,
+        "avatar": "http://localhost:3001/assets/avatar/2.png"
+    },
+    {
+        "id": 3,
+        "name": "Stryker",
+        "img": "http://localhost:3001/assets/fightingStance/stryker.gif",
+        "hp": 100,
+        "avatar": "http://localhost:3001/assets/avatar/3.png"
+    },
+    {
+        "id": 4,
+        "name": "Jax",
+        "img": "http://localhost:3001/assets/fightingStance/jax.gif",
+        "hp": 100,
+        "avatar": "http://localhost:3001/assets/avatar/4.png"
+    },
+    {
+        "id": 5,
+        "name": "Nightwolf",
+        "img": "http://localhost:3001/assets/fightingStance/nightwolf.gif",
+        "hp": 100,
+        "avatar": "http://localhost:3001/assets/avatar/5.png"
+    },
+    {
+        "id": 6,
+        "name": "Jade",
+        "img": "http://localhost:3001/assets/fightingStance/jade.gif",
+        "hp": 100,
+        "avatar": "http://localhost:3001/assets/avatar/6.png"
+    },
+    {
+        "id": 7,
+        "name": "Noob Saibot",
+        "img": "http://localhost:3001/assets/fightingStance/noobsaibot.gif",
+        "hp": 100,
+        "avatar": "http://localhost:3001/assets/avatar/7.png"
+    },
+    {
+        "id": 8,
+        "name": "Sonya Blade",
+        "img": "http://localhost:3001/assets/fightingStance/sonya.gif",
+        "hp": 100,
+        "avatar": "http://localhost:3001/assets/avatar/8.png"
+    },
+    {
+        "id": 9,
+        "name": "Kano",
+        "img": "http://localhost:3001/assets/fightingStance/kano.gif",
+        "hp": 100,
+        "avatar": "http://localhost:3001/assets/avatar/9.png"
+    },
+    {
+        "id": 10,
+        "name": "Mileena",
+        "img": "http://localhost:3001/assets/fightingStance/mileena.gif",
+        "hp": 100,
+        "avatar": "http://localhost:3001/assets/avatar/10.png"
+    },
+    {
+        "id": 12,
+        "name": "Shang Tsung",
+        "img": "http://localhost:3001/assets/fightingStance/shangtsung.gif",
+        "hp": 100,
+        "avatar": "http://localhost:3001/assets/avatar/12.png"
+    },
+    {
+        "id": 13,
+        "name": "Sub-Zero",
+        "img": "http://localhost:3001/assets/fightingStance/subzero.gif",
+        "hp": 100,
+        "avatar": "http://localhost:3001/assets/avatar/13.png"
+    },
+    {
+        "id": 14,
+        "name": "Kung Lao",
+        "img": "http://localhost:3001/assets/fightingStance/kunglao.gif",
+        "hp": 100,
+        "avatar": "http://localhost:3001/assets/avatar/14.png"
+    },
+    {
+        "id": 15,
+        "name": "Cyrax",
+        "img": "http://localhost:3001/assets/fightingStance/cyrax.gif",
+        "hp": 100,
+        "avatar": "http://localhost:3001/assets/avatar/15.png"
+    },
+    {
+        "id": 16,
+        "name": "Kitana",
+        "img": "http://localhost:3001/assets/fightingStance/kitana.gif",
+        "hp": 100,
+        "avatar": "http://localhost:3001/assets/avatar/16.png"
+    },
+    {
+        "id": 17,
+        "name": "Ermac",
+        "img": "http://localhost:3001/assets/fightingStance/ermac.gif",
+        "hp": 100,
+        "avatar": "http://localhost:3001/assets/avatar/17.png"
+    },
+    {
+        "id": 18,
+        "name": "Scorpion",
+        "img": "http://localhost:3001/assets/fightingStance/scorpion.gif",
+        "hp": 100,
+        "avatar": "http://localhost:3001/assets/avatar/18.png"
+    },
+    {
+        "id": 19,
+        "name": "Sektor",
+        "img": "http://localhost:3001/assets/fightingStance/sektor.gif",
+        "hp": 100,
+        "avatar": "http://localhost:3001/assets/avatar/19.png"
+    },
+    {
+        "id": 20,
+        "name": "Kabal",
+        "img": "http://localhost:3001/assets/fightingStance/kabal.gif",
+        "hp": 100,
+        "avatar": "http://localhost:3001/assets/avatar/20.png"
+    },
+    {
+        "id": 21,
+        "name": "Sindel",
+        "img": "http://localhost:3001/assets/fightingStance/sindel.gif",
+        "hp": 100,
+        "avatar": "http://localhost:3001/assets/avatar/21.png"
+    },
+    {
+        "id": 22,
+        "name": "Smoke",
+        "img": "http://localhost:3001/assets/fightingStance/smoke.gif",
+        "hp": 100,
+        "avatar": "http://localhost:3001/assets/avatar/22.png"
+    },
+    {
+        "id": 23,
+        "name": "Liu Kang",
+        "img": "http://localhost:3001/assets/fightingStance/liukang.gif",
+        "hp": 100,
+        "avatar": "http://localhost:3001/assets/avatar/23.png"
+    },
+    {
+        "id": 24,
+        "name": "Shao-Kahn",
+        "img": "http://localhost:3001/assets/fightingStance/shaokahn.gif",
+        "hp": 100,
+        "avatar": "http://localhost:3001/assets/avatar/24.png"
+    }
+]
