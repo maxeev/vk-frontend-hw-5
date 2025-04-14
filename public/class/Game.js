@@ -1,5 +1,5 @@
-import { getRandom, createReloadButton, enemyAttack, playerAttack, showResult } from '../utils/utils.js';
-import { LOGS, generateLogs } from './logs.js';
+import { enemyAttack, playerAttack, showResult } from '../utils/utils.js';
+import { generateLogs } from './logs.js';
 import Player from './Player.js';
 
 export default class Game {

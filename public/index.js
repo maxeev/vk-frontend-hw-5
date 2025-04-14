@@ -71,7 +71,7 @@ el.addEventListener('click', () => {
                     localStorage.setItem('player2', JSON.stringify(selectedPlayers[1]));
 
                     setTimeout(() => {
-                        window.location.pathname = 'index1.html'; // Переход на страницу арены
+                        window.location.pathname = 'public/index1.html'; // Переход на страницу арены
                     }, 1000);
                 }
             }

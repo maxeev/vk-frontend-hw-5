@@ -152,7 +152,7 @@ body {
 
 .name {
     position: absolute;
-    font-family: 'Mortal Kombat 3';
+    font-family: 'Mortal Kombat 3', sans-serif;
     font-size: 26px;
     line-height: 20px;
     letter-spacing: 2px;
@@ -179,7 +179,7 @@ body {
     padding: 6px 40px;
     overflow: scroll;
     color: white;
-    font-family: Arial;
+    font-family: Arial, sans-serif;
 }
 
 .character {
@@ -238,7 +238,7 @@ body {
     border-radius: 4px;
     box-sizing: border-box;
     cursor: pointer;
-    font-family: "Mortal Kombat 3";
+    font-family: "Mortal Kombat 3", sans-serif;
     outline: none;
 }
 .button::after {
@@ -288,7 +288,7 @@ body {
     text-transform: uppercase;
     z-index: 1000;
     color: white;
-    font-family: "Mortal Kombat 3";
+    font-family: "Mortal Kombat 3", sans-serif;
     text-shadow: 2px 2px 2px #cd0e03;
 }
 
@@ -348,7 +348,7 @@ form:invalid button[class=button]:active::after {
     text-align: center;
     margin: 0 auto 20px;
     font-weight: 700;
-    font-family: 'Mortal Kombat 3';
+    font-family: 'Mortal Kombat 3', sans-serif;
     color: #efefef;
     text-transform: uppercase;
 }
@@ -357,7 +357,7 @@ form:invalid button[class=button]:active::after {
     border: solid 3px #cd0e03;
     height: 50px;
     padding: 0 12px;
-    font-family: 'Mortal Kombat 3';
+    font-family: 'Mortal Kombat 3', sans-serif;
     display: flex;
     justify-content: space-between;
     color: #efefef;

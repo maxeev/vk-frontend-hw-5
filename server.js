@@ -47,7 +47,7 @@ app.get('/api/player', (req, res) => {
     });
 });
 
-// Бой игроков
+// Бой 
 app.post('/api/player/fight', (req, res) => {
     const { hit, defence } = req.body;
     if (!hit || !defence) {
@@ -62,7 +62,7 @@ app.post('/api/player/fight', (req, res) => {
     res.json({ player1, player2 });
 });
 
-// Получение конкретного игрока по ID
+// Получение игрока по ID
 app.get('/api/player/:id', (req, res) => {
     const { id } = req.params;
     fs.readFile('players.json', 'utf8', (err, data) => {
